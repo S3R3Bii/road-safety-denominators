@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "phase": "development",
+  "independent_value_checks": 127530,
+  "max_float_delta": 0.0,
+  "methods": "Independent source-tokenjoin;SQLite integer midranks;integer pair crossproducts;Decimalclosedrounding bounds;separate contingency reconstruction",
+  "tolerance": "Exact integers,rank halves,count bounds,ratio crossproducts andpaircategories;1e-12absolute onlyforfloatdisplay"
+}

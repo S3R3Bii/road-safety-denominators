@@ -1,0 +1,139 @@
+figure,year,group,denominator_a,denominator_b,state,series,value
+rank-scatter,2023,all,population,vmt_millions,Alabama,population_midrank,6.0
+rank-scatter,2023,all,population,vmt_millions,Alabama,vmt_midrank,21.0
+rank-scatter,2023,all,population,vmt_millions,Alaska,population_midrank,44.0
+rank-scatter,2023,all,population,vmt_millions,Alaska,vmt_midrank,36.0
+rank-scatter,2023,all,population,vmt_millions,Arizona,population_midrank,12.0
+rank-scatter,2023,all,population,vmt_millions,Arizona,vmt_midrank,2.0
+rank-scatter,2023,all,population,vmt_millions,Arkansas,population_midrank,5.0
+rank-scatter,2023,all,population,vmt_millions,Arkansas,vmt_midrank,10.0
+rank-scatter,2023,all,population,vmt_millions,California,population_midrank,34.0
+rank-scatter,2023,all,population,vmt_millions,California,vmt_midrank,23.0
+rank-scatter,2023,all,population,vmt_millions,Colorado,population_midrank,26.0
+rank-scatter,2023,all,population,vmt_millions,Colorado,vmt_midrank,22.0
+rank-scatter,2023,all,population,vmt_millions,Connecticut,population_midrank,42.0
+rank-scatter,2023,all,population,vmt_millions,Connecticut,vmt_midrank,40.0
+rank-scatter,2023,all,population,vmt_millions,Delaware,population_midrank,25.0
+rank-scatter,2023,all,population,vmt_millions,Delaware,vmt_midrank,18.0
+rank-scatter,2023,all,population,vmt_millions,District of Columbia,population_midrank,47.0
+rank-scatter,2023,all,population,vmt_millions,District of Columbia,vmt_midrank,26.0
+rank-scatter,2023,all,population,vmt_millions,Florida,population_midrank,15.0
+rank-scatter,2023,all,population,vmt_millions,Florida,vmt_midrank,15.0
+rank-scatter,2023,all,population,vmt_millions,Georgia,population_midrank,17.0
+rank-scatter,2023,all,population,vmt_millions,Georgia,vmt_midrank,24.0
+rank-scatter,2023,all,population,vmt_millions,Hawaii,population_midrank,48.0
+rank-scatter,2023,all,population,vmt_millions,Hawaii,vmt_midrank,46.0
+rank-scatter,2023,all,population,vmt_millions,Idaho,population_midrank,20.0
+rank-scatter,2023,all,population,vmt_millions,Idaho,vmt_midrank,17.0
+rank-scatter,2023,all,population,vmt_millions,Illinois,population_midrank,37.0
+rank-scatter,2023,all,population,vmt_millions,Illinois,vmt_midrank,30.0
+rank-scatter,2023,all,population,vmt_millions,Indiana,population_midrank,24.0
+rank-scatter,2023,all,population,vmt_millions,Indiana,vmt_midrank,38.0
+rank-scatter,2023,all,population,vmt_millions,Iowa,population_midrank,28.0
+rank-scatter,2023,all,population,vmt_millions,Iowa,vmt_midrank,31.0
+rank-scatter,2023,all,population,vmt_millions,Kansas,population_midrank,23.0
+rank-scatter,2023,all,population,vmt_millions,Kansas,vmt_midrank,28.0
+rank-scatter,2023,all,population,vmt_millions,Kentucky,population_midrank,9.0
+rank-scatter,2023,all,population,vmt_millions,Kentucky,vmt_midrank,4.0
+rank-scatter,2023,all,population,vmt_millions,Louisiana,population_midrank,10.0
+rank-scatter,2023,all,population,vmt_millions,Louisiana,vmt_midrank,13.0
+rank-scatter,2023,all,population,vmt_millions,Maine,population_midrank,39.0
+rank-scatter,2023,all,population,vmt_millions,Maine,vmt_midrank,45.0
+rank-scatter,2023,all,population,vmt_millions,Maryland,population_midrank,36.0
+rank-scatter,2023,all,population,vmt_millions,Maryland,vmt_midrank,34.0
+rank-scatter,2023,all,population,vmt_millions,Massachusetts,population_midrank,51.0
+rank-scatter,2023,all,population,vmt_millions,Massachusetts,vmt_midrank,51.0
+rank-scatter,2023,all,population,vmt_millions,Michigan,population_midrank,30.0
+rank-scatter,2023,all,population,vmt_millions,Michigan,vmt_midrank,32.0
+rank-scatter,2023,all,population,vmt_millions,Minnesota,population_midrank,45.0
+rank-scatter,2023,all,population,vmt_millions,Minnesota,vmt_midrank,50.0
+rank-scatter,2023,all,population,vmt_millions,Mississippi,population_midrank,1.0
+rank-scatter,2023,all,population,vmt_millions,Mississippi,vmt_midrank,1.0
+rank-scatter,2023,all,population,vmt_millions,Missouri,population_midrank,13.0
+rank-scatter,2023,all,population,vmt_millions,Missouri,vmt_midrank,27.0
+rank-scatter,2023,all,population,vmt_millions,Montana,population_midrank,8.0
+rank-scatter,2023,all,population,vmt_millions,Montana,vmt_midrank,11.0
+rank-scatter,2023,all,population,vmt_millions,Nebraska,population_midrank,29.0
+rank-scatter,2023,all,population,vmt_millions,Nebraska,vmt_midrank,37.0
+rank-scatter,2023,all,population,vmt_millions,Nevada,population_midrank,27.0
+rank-scatter,2023,all,population,vmt_millions,Nevada,vmt_midrank,16.0
+rank-scatter,2023,all,population,vmt_millions,New Hampshire,population_midrank,41.0
+rank-scatter,2023,all,population,vmt_millions,New Hampshire,vmt_midrank,42.0
+rank-scatter,2023,all,population,vmt_millions,New Jersey,population_midrank,46.0
+rank-scatter,2023,all,population,vmt_millions,New Jersey,vmt_midrank,49.0
+rank-scatter,2023,all,population,vmt_millions,New Mexico,population_midrank,3.0
+rank-scatter,2023,all,population,vmt_millions,New Mexico,vmt_midrank,9.0
+rank-scatter,2023,all,population,vmt_millions,New York,population_midrank,50.0
+rank-scatter,2023,all,population,vmt_millions,New York,vmt_midrank,44.0
+rank-scatter,2023,all,population,vmt_millions,North Carolina,population_midrank,18.0
+rank-scatter,2023,all,population,vmt_millions,North Carolina,vmt_midrank,25.0
+rank-scatter,2023,all,population,vmt_millions,North Dakota,population_midrank,22.0
+rank-scatter,2023,all,population,vmt_millions,North Dakota,vmt_midrank,35.0
+rank-scatter,2023,all,population,vmt_millions,Ohio,population_midrank,32.0
+rank-scatter,2023,all,population,vmt_millions,Ohio,vmt_midrank,33.0
+rank-scatter,2023,all,population,vmt_millions,Oklahoma,population_midrank,11.0
+rank-scatter,2023,all,population,vmt_millions,Oklahoma,vmt_midrank,8.0
+rank-scatter,2023,all,population,vmt_millions,Oregon,population_midrank,21.0
+rank-scatter,2023,all,population,vmt_millions,Oregon,vmt_midrank,6.0
+rank-scatter,2023,all,population,vmt_millions,Pennsylvania,population_midrank,40.0
+rank-scatter,2023,all,population,vmt_millions,Pennsylvania,vmt_midrank,29.0
+rank-scatter,2023,all,population,vmt_millions,Rhode Island,population_midrank,49.0
+rank-scatter,2023,all,population,vmt_millions,Rhode Island,vmt_midrank,43.0
+rank-scatter,2023,all,population,vmt_millions,South Carolina,population_midrank,4.0
+rank-scatter,2023,all,population,vmt_millions,South Carolina,vmt_midrank,3.0
+rank-scatter,2023,all,population,vmt_millions,South Dakota,population_midrank,14.0
+rank-scatter,2023,all,population,vmt_millions,South Dakota,vmt_midrank,20.0
+rank-scatter,2023,all,population,vmt_millions,Tennessee,population_midrank,7.0
+rank-scatter,2023,all,population,vmt_millions,Tennessee,vmt_midrank,7.0
+rank-scatter,2023,all,population,vmt_millions,Texas,population_midrank,19.0
+rank-scatter,2023,all,population,vmt_millions,Texas,vmt_midrank,14.0
+rank-scatter,2023,all,population,vmt_millions,Utah,population_midrank,43.0
+rank-scatter,2023,all,population,vmt_millions,Utah,vmt_midrank,48.0
+rank-scatter,2023,all,population,vmt_millions,Vermont,population_midrank,31.0
+rank-scatter,2023,all,population,vmt_millions,Vermont,vmt_midrank,41.0
+rank-scatter,2023,all,population,vmt_millions,Virginia,population_midrank,33.0
+rank-scatter,2023,all,population,vmt_millions,Virginia,vmt_midrank,39.0
+rank-scatter,2023,all,population,vmt_millions,Washington,population_midrank,35.0
+rank-scatter,2023,all,population,vmt_millions,Washington,vmt_midrank,19.0
+rank-scatter,2023,all,population,vmt_millions,West Virginia,population_midrank,16.0
+rank-scatter,2023,all,population,vmt_millions,West Virginia,vmt_midrank,5.0
+rank-scatter,2023,all,population,vmt_millions,Wisconsin,population_midrank,38.0
+rank-scatter,2023,all,population,vmt_millions,Wisconsin,vmt_midrank,47.0
+rank-scatter,2023,all,population,vmt_millions,Wyoming,population_midrank,2.0
+rank-scatter,2023,all,population,vmt_millions,Wyoming,vmt_midrank,12.0
+exact-reversals,2019,all,population,licensed_drivers,,strict_reversals,62
+exact-reversals,2021,all,population,licensed_drivers,,strict_reversals,72
+exact-reversals,2023,all,population,licensed_drivers,,strict_reversals,63
+exact-reversals,2019,all,population,vmt_millions,,strict_reversals,152
+exact-reversals,2021,all,population,vmt_millions,,strict_reversals,204
+exact-reversals,2023,all,population,vmt_millions,,strict_reversals,222
+exact-reversals,2019,all,licensed_drivers,vmt_millions,,strict_reversals,152
+exact-reversals,2021,all,licensed_drivers,vmt_millions,,strict_reversals,196
+exact-reversals,2023,all,licensed_drivers,vmt_millions,,strict_reversals,221
+rounded-share-information,2019,motorcyclists,population,vmt_millions,,guaranteed_same,915
+rounded-share-information,2021,motorcyclists,population,vmt_millions,,guaranteed_same,893
+rounded-share-information,2023,motorcyclists,population,vmt_millions,,guaranteed_same,916
+rounded-share-information,2019,motorcyclists,population,vmt_millions,,guaranteed_reversal,127
+rounded-share-information,2021,motorcyclists,population,vmt_millions,,guaranteed_reversal,180
+rounded-share-information,2023,motorcyclists,population,vmt_millions,,guaranteed_reversal,180
+rounded-share-information,2019,motorcyclists,population,vmt_millions,,unresolved,233
+rounded-share-information,2021,motorcyclists,population,vmt_millions,,unresolved,202
+rounded-share-information,2023,motorcyclists,population,vmt_millions,,unresolved,179
+rounded-share-information,2019,pedestrians,population,vmt_millions,,guaranteed_same,1040
+rounded-share-information,2021,pedestrians,population,vmt_millions,,guaranteed_same,1009
+rounded-share-information,2023,pedestrians,population,vmt_millions,,guaranteed_same,1026
+rounded-share-information,2019,pedestrians,population,vmt_millions,,guaranteed_reversal,107
+rounded-share-information,2021,pedestrians,population,vmt_millions,,guaranteed_reversal,133
+rounded-share-information,2023,pedestrians,population,vmt_millions,,guaranteed_reversal,128
+rounded-share-information,2019,pedestrians,population,vmt_millions,,unresolved,128
+rounded-share-information,2021,pedestrians,population,vmt_millions,,unresolved,133
+rounded-share-information,2023,pedestrians,population,vmt_millions,,unresolved,121
+rounded-share-information,2019,pedalcyclists,population,vmt_millions,,guaranteed_same,783
+rounded-share-information,2021,pedalcyclists,population,vmt_millions,,guaranteed_same,723
+rounded-share-information,2023,pedalcyclists,population,vmt_millions,,guaranteed_same,807
+rounded-share-information,2019,pedalcyclists,population,vmt_millions,,guaranteed_reversal,14
+rounded-share-information,2021,pedalcyclists,population,vmt_millions,,guaranteed_reversal,3
+rounded-share-information,2023,pedalcyclists,population,vmt_millions,,guaranteed_reversal,7
+rounded-share-information,2019,pedalcyclists,population,vmt_millions,,unresolved,478
+rounded-share-information,2021,pedalcyclists,population,vmt_millions,,unresolved,549
+rounded-share-information,2023,pedalcyclists,population,vmt_millions,,unresolved,461

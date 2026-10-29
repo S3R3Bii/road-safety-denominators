@@ -1,0 +1,68 @@
+{
+  "timestamp_utc": "2026-10-29T18:26:45.862637+00:00",
+  "status": "FROZEN_BEFORE_2023_RANKING_OUTCOMES",
+  "code_checkpoint": "9facea893720bf778d19d6bd8e3484c9a1f3353a",
+  "hash_convention": "Canonical LF Git text;public replay normalizes checkoutCRLF only",
+  "sha256": {
+    "PROTOCOL.md": "6c91bc71e9241b7606dd26a9565fc233ea40a232ebf9d49581e86a48046e98ce",
+    "SOURCE_SCHEMA_UPDATE.md": "d5789c6b62b328bdd9083e4af8b30a0715eb732e75ddbde427cd956a168363a7",
+    "src/config.py": "301e3bd298aee64612f8bc399f4d1f7067e3cebb77791835823ba365defbd5a2",
+    "src/source_tables.py": "7efe1cf2940f4c00e932a780fe02ac98d77c18257fbcc7b8d77d51bb11dab2ae",
+    "src/accounting.py": "b95fc3cc8f588f006b9c4814915c7fc21cac81ed4c3c2fe5d171e416e08c0d72",
+    "src/ingest.py": "09acbacbfde1db364ed1d7e5422b70028b9d3b4c97bc267ee91f05f44f6366ce",
+    "src/retrieve.py": "41062a32752336c05090453a728cb2b4eb951f25e257fc9e8a9c0733203dc981",
+    "src/verify_source.py": "88ed6f5b99fa0574f0c8b4bf650709e71b38fdc68ab0b2567bb30e819c05d339",
+    "src/analyze.py": "a601fbb49fc6adb656fdd3e6d6af6a367bed7fb8989924fe24551bbc5c8dd1dc",
+    "src/verify_analysis.py": "6aa9aa6a72b98b4a652b0cab6e1061fdfa523c9395848712255cc943c7e276e4",
+    "src/analyze_exact_subgroups.py": "886007477eaec4a5177d31d86ea80dfc0334ee9519d53b30cb626b13b7addceb",
+    "src/verify_exact_subgroups.py": "a284e8f8e0807dcd9b15cca1c857a606593fe1dfdc821b9795d693277f7112a7",
+    "src/check_reproduction.py": "0de6cb1c50952b43d3787197d2e0ca507c187301c5e30b2215e5311b413b6863",
+    "tests/test_boundaries.py": "b28d81f86924d3daf13a96663c2ae9c7aba241414f83d8f7994d6a2c81a7fe15",
+    "data/source/manifest.json": "56f3548e6650ecc8efc44cc82f37d92aba808e0d1e23308629db264fdaffa7cc",
+    "data/measurements.csv": "cd235f5922c48493f80b61f33a5b67a80298757d5592eccaa1a5bb48969e637e",
+    "results/INDEPENDENT_SOURCE_CHECK.json": "01edd43c443093838f67be28a7badd125b4c09f4157f51dba5eade02f8c3df51",
+    "requirements.txt": "5d1fb6514d4dcf4d3d78f72c73fa3d9026a99d1f8e80d1bd12965c68982abced",
+    "requirements-source.txt": "a07c007f93dc6c77e54e74f7a9e9c971d48f57bd5af116b39d4cb8f29b594124"
+  },
+  "separation": "2019/2021analytic ranks,pair comparisons andconditional bounds computed. All2023sourcecells,format/coverage/national-total/rate-rounding consistency were inspected asallowed sourcechecks. No2023analytic rank/reversal/bounded-pair orexact-subgroup comparison output computed. This isnot blinding orhistorical prospective information availability.",
+  "source_checks": {
+    "selected_cell_and_locator_checks": 3498,
+    "source_numeric_checks": 1872,
+    "eligible_state_years": 153,
+    "rendered_source_pages_inspected": 6,
+    "complete_source_reports_private": 3,
+    "exact2023counts_retained": true
+  },
+  "development_checks": {
+    "boundary_tests": 13,
+    "independent_values": 127530,
+    "max_float_delta": 0.0
+  },
+  "gates": {
+    "source_rights_privacy": "PASS selected factual cells only;copyright-bearing registration fields/reportcopies excluded",
+    "source_coverage": "PASS unchanged",
+    "source_engine_comparison": "PASS",
+    "source_schema_update": "PASS prospectivebeforeanalyticoutcomes",
+    "development_science": "PASS",
+    "evaluation_replay_presentation_release": "PENDING"
+  },
+  "review_rounds_completed": 2,
+  "review_budget": "3substantive rounds/45active review minutes/60review-specific calls perstudy;execution separate",
+  "workload_proxy": "Source discovery about18:10UTC tofreeze about18:27UTC iselapsedupperbound onactive review,notquota/billing;fewerthan40review-specific calls;noagentsorexternaljudge.",
+  "usage_observation": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-29T18:26:03Z",
+    "bucket": "codex",
+    "window_minutes": 10080,
+    "used_percent": 82,
+    "remaining_percent": 18,
+    "reset_unix": 1793782197,
+    "shared_account_not_task_usage": true
+  },
+  "limits": [
+    "SeparatepublishedARF vintages,notlatestharmonizedFARS",
+    "Closedrounding/displayprecision scenariosarenotconfidenceintervals ortrueexposure bounds",
+    "2023hasexactsubgroupcounts;roundedversionisacoarsening sensitivity",
+    "Noresidentdeathrisk,person-distancerisk,causalpolicy,individualsafety,human-auditedlabel,newmethodorpeer-reviewclaim"
+  ]
+}

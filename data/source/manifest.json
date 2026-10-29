@@ -1,0 +1,107 @@
+{
+  "reports": [
+    {
+      "year": 2019,
+      "publication": "813183",
+      "url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813183",
+      "captured_utc": "2026-10-29T18:19:38.548955+00:00",
+      "timestamp_basis": "Preserved original private capture-file timestamp after interruptedmanifest;no networkrefresh orresponseheader time asserted",
+      "response_sha256": "7b9b1d5cdedb59328c4108709bf464e344e497d17882671379afc54c293cee37",
+      "response_bytes": 921912,
+      "payload_sha256": "6fcdf213e5454f97ba2c8b9e2c425d1d20cd043967393a04a5cba60e965dc4b6",
+      "payload_bytes": 921717,
+      "wrapper": "single-part-multipart-pdf",
+      "pages": 16,
+      "tables": [
+        {
+          "table": 1,
+          "pages": [
+            4
+          ],
+          "rows": 53,
+          "subset_file": "data/source/2019-table1.csv.gz",
+          "subset_sha256": "5918b2ce142e8a15aa24e2a28a8536e5664f7e52fbd720431a8d666f7f22dc72"
+        },
+        {
+          "table": 7,
+          "pages": [
+            10
+          ],
+          "rows": 53,
+          "subset_file": "data/source/2019-table7.csv.gz",
+          "subset_sha256": "c30d453746b8610a13bb9cc5774f848198863b48261afcf120feba710c8d6522"
+        }
+      ],
+      "version": "Published report-year ARF snapshot;not latest FARS"
+    },
+    {
+      "year": 2021,
+      "publication": "813509",
+      "url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813509",
+      "captured_utc": "2026-10-29T18:19:59.426549+00:00",
+      "timestamp_basis": "Preserved original private capture-file timestamp after interruptedmanifest;no networkrefresh orresponseheader time asserted",
+      "response_sha256": "32be127894f03468e8f418168b937abd68ae92cc177411ecc1438bbdfd4b0610",
+      "response_bytes": 3553775,
+      "payload_sha256": "ae3f997b709914e47a587f0e01b9e74c57ef7347a5af341ebbacc5ae73cd7c36",
+      "payload_bytes": 3553580,
+      "wrapper": "single-part-multipart-pdf",
+      "pages": 18,
+      "tables": [
+        {
+          "table": 1,
+          "pages": [
+            5
+          ],
+          "rows": 53,
+          "subset_file": "data/source/2021-table1.csv.gz",
+          "subset_sha256": "1356ae25b0554d14e01e0eb7e276edeb59568216c96c4387db005c5f4827b0bf"
+        },
+        {
+          "table": 7,
+          "pages": [
+            11
+          ],
+          "rows": 53,
+          "subset_file": "data/source/2021-table7.csv.gz",
+          "subset_sha256": "ee99c1f968d3474414ffa862ed6aba43ec1c7e6f15a780a51ed0904703c94eef"
+        }
+      ],
+      "version": "Published report-year ARF snapshot;not latest FARS"
+    },
+    {
+      "year": 2023,
+      "publication": "813743",
+      "url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813743",
+      "captured_utc": "2026-10-29T18:20:14.765859+00:00",
+      "timestamp_basis": "Preserved original private capture-file timestamp after interruptedmanifest;no networkrefresh orresponseheader time asserted",
+      "response_sha256": "2caa0c8a7b3b14e28558dcbe708d7670237cebc772902bf963dcd0efefc7b7b3",
+      "response_bytes": 2005035,
+      "payload_sha256": "bfa4fdb2e998ed902777001105300985c57c9fabd44a12a4e2587db759d66f4c",
+      "payload_bytes": 2004840,
+      "wrapper": "single-part-multipart-pdf",
+      "pages": 18,
+      "tables": [
+        {
+          "table": 1,
+          "pages": [
+            5
+          ],
+          "rows": 53,
+          "subset_file": "data/source/2023-table1.csv.gz",
+          "subset_sha256": "a00758761e87e862643f57b7ddcfad9db75c8d7f97b2bdf1558cea21ffd449b2"
+        },
+        {
+          "table": 7,
+          "pages": [
+            11
+          ],
+          "rows": 53,
+          "subset_file": "data/source/2023-table7.csv.gz",
+          "subset_sha256": "d2b4986aa8b7da4e7bef8969657b7021aabcb34a08d2573cd11ba51c26cb2ad4"
+        }
+      ],
+      "version": "Published report-year ARF snapshot;not latest FARS"
+    }
+  ],
+  "excluded_fields": "All registered-vehicle count/rate fields and source-report expression;no source PDFs inGit"
+}

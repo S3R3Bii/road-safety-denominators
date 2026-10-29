@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "state_year_rows": 153,
+  "source_rows_per_table_year": 53,
+  "eligible_states_per_year": 51,
+  "excluded": "PuertoRico excluded from comparisons;U.S.total accounting only;allregistration fields excluded",
+  "source_numeric_checks": 1872,
+  "fatality_sums": "Exact across51states/DC ineachreport vintage",
+  "denominator_reconciliations": "All differences retained;no rescaling",
+  "rounding_gate": "Closed0.005displayed-rate interval;VMTplus/minus0.5million only;allreported sourcevalues unchanged"
+}

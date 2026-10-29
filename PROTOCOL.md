@@ -1,5 +1,7 @@
 # Study 19: denominator and display-precision sensitivity
 
+Read the [source-schema update](SOURCE_SCHEMA_UPDATE.md), fixed before any ranking analysis: the 2023 table supplies exact subgroup counts as well as percentages; retain and compare both. Earlier years retain conditional ranges only.
+
 ## Decision, audience and success
 
 Which within-year state comparisons of recorded traffic fatalities reverse under population versus vehicle-mile denominators, and how much can rounded road-user shares establish? Research/data-engineering reviewers need explicit units and limits, not a state safety league table. Success requires exact source/provenance/rights accounting, unchanged coverage and rounding gates, code freeze before 2023 ranking outcomes, independently reconstructed rates/ranks/reversals/count ranges, isolated replay, legible original figures and checked manuscript, exact public Git audit, Linux checks and merge/tree/tag proof. All gates PASS before release; grade 4 means this scope is met, not universal correctness, novelty or policy validity.

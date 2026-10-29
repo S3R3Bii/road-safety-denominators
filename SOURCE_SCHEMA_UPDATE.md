@@ -1,0 +1,9 @@
+# Source schema update before ranking analysis
+
+29 October 2026. The fixed Table 7 six-token gate rejected the 2023 report because its table adds explicit counts alongside each of the five percentage columns. The 2019 and 2021 tables contain percentages only. The failed gate, exact captured responses and one inspected 2023 header/first-row excerpt are retained privately. No development or 2023 ranking/reversal outcome has been computed.
+
+The implementation will select both the five exact counts and five rounded percentages where counts are explicitly supplied. Older reports retain missing exact-count fields; no count is fabricated. The original within-year denominator comparison and all precision scenarios remain fixed. In 2023, add a fair exact-count comparator for each secondary road-user group and all three denominator pairs; compare its exact ranks and pair reversals with the conservative rounded-share ranges. Verify every supplied exact count is feasible under its displayed percentage and all five counts sum to at most total fatalities. This is a prospective source-schema correction before analysis, not selection based on ranking outcomes.
+
+For 2019/2021, conditional count ranges are necessary for these selected report tables. For 2023, they are explicitly a coarsened-display sensitivity; use supplied exact counts when available. Do not imply the 2023 source lacks exact subgroup counts. All source facts, exact and interval comparisons, failures and limits remain visible. No classification harmonization, model fitting or new threshold search is introduced. Full report PDFs and proprietary registration fields remain excluded.
+
+Retrieval resumes the three already captured official responses without network refresh or overwrite. Their exact response/payload hashes and original capture-file timestamps are retained. A failed final manifest does not justify silently replacing a source snapshot.

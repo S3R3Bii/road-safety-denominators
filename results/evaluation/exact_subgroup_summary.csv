@@ -1,0 +1,10 @@
+year,group,denominator_a,denominator_b,pairs,same,reversal,tie_in_either,guaranteed_same,guaranteed_reversal,unresolved,unresolved_actual_reversals
+2023,motorcyclists,population,licensed_drivers,1275,1207,68,0,1119,15,141,53
+2023,motorcyclists,population,vmt_millions,1275,1013,262,0,916,180,179,82
+2023,motorcyclists,licensed_drivers,vmt_millions,1275,1019,256,0,915,172,188,84
+2023,pedestrians,population,licensed_drivers,1275,1220,55,0,1151,7,117,48
+2023,pedestrians,population,vmt_millions,1275,1089,186,0,1026,128,121,58
+2023,pedestrians,licensed_drivers,vmt_millions,1275,1108,167,0,1021,117,137,50
+2023,pedalcyclists,population,licensed_drivers,1275,1222,47,6,877,0,398,47
+2023,pedalcyclists,population,vmt_millions,1275,1143,126,6,807,7,461,119
+2023,pedalcyclists,licensed_drivers,vmt_millions,1275,1136,133,6,803,6,466,127

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "independent_selected_cell_and_locator_checks": 3498,
+  "reports": 3,
+  "table_pages": 6,
+  "engines": "Productionpypdf;independentpdfplumber/pdfminer textgeometry",
+  "all_registration_fields_excluded": true,
+  "full_originals_outside_git": true
+}
