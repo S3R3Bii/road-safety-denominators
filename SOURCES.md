@@ -1,0 +1,12 @@
+# Primary sources and discovery boundary
+
+- [2019 State Traffic Data, DOT HS 813183](https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813183), October 2021. Table 1: fatalities/population/licensed drivers/VMT and rounded rates; Table 7: total fatalities and five rounded person-type shares. FARS 2019 Annual Report File. Complete 2019 report inspected for schema; no cross-denominator ranks or reversal counts computed before this protocol.
+- [2021 State Traffic Data, DOT HS 813509](https://rosap.ntl.bts.gov/view/dot/78491/dot_78491_DS1.pdf), September 2023; canonical [NHTSA publication](https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813509). FARS 2021 ARF. Metadata and published table structure inspected during discovery; no study ranking computation.
+- [2023 State Traffic Data, DOT HS 813743](https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813743), August 2025. Targeted from official/cross-referenced publication metadata; national headline/version metadata may have appeared in search. No full response or study ranking output retrieved before protocol.
+- [NHTSA FARS](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars): nationwide census of fatal motor-vehicle traffic crashes, with documented coverage limits. The report snapshots are not the latest revised FARS files.
+- [FARS classification help](https://www-fars.nhtsa.dot.gov/Help/helplinks.aspx): vehicle-classification change from 2020 and motorized/motor-assisted bicycle change from 2022. Comparisons are within-year, with year-specific labels; do not interpret cross-year subgroup changes as harmonized trends.
+- [U.S.Copyright Office, What is copyright?](https://www.copyright.gov/what-is-copyright/): facts versus protected expression. Only selected factual cells and original work are published; full reports and copyrighted registration fields excluded.
+
+NHTSA already publishes rates under several denominators side by side. This is not a claim to discover denominator sensitivity or a novel estimator. The bounded contribution is reproducible exact comparison plus explicit handling of rounded subgroup shares, with independent source/accounting checks. No exhaustive prior-work, peer-review or new-method claim.
+
+The 2019 NHTSA HTTPresponse is a multipart body containing one PDF. Preserve the exact response and decode its single MIMEpart without altering the source payload; retain both hashes. Source parsing must handle this documented wrapper explicitly, not hide PDFwarnings or silently strip arbitrary bytes.
