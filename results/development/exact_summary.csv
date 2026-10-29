@@ -1,0 +1,7 @@
+year,denominator_a,denominator_b,pairs,same,reversal,tie_in_either,max_abs_midrank_movement,top5_a_size,top5_b_size,top5_overlap,top10_a_size,top10_b_size,top10_overlap
+2019,population,licensed_drivers,1275,1213,62,0,8.0,5,5,4,10,10,9
+2019,population,vmt_millions,1275,1123,152,0,14.0,5,5,4,10,10,7
+2019,licensed_drivers,vmt_millions,1275,1123,152,0,15.0,5,5,4,10,10,7
+2021,population,licensed_drivers,1275,1203,72,0,8.0,5,5,4,10,10,9
+2021,population,vmt_millions,1275,1071,204,0,32.0,5,5,4,10,10,7
+2021,licensed_drivers,vmt_millions,1275,1079,196,0,32.0,5,5,4,10,10,8
