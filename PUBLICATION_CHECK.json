@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-29T18:17:53.004950+00:00",
+  "timestamp_utc": "2026-10-29T18:19:35.707665+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 8,
+  "files_checked": 15,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -12,7 +12,13 @@
     "README.md": "bcf5261831e35465329f3b62473871e205368e60193d67b9a0d80341ced2e07f",
     "SOURCES.md": "adc4653642fa1d653b7a4ef510f2941c3a06505be5a61be003430f423741a380",
     "requirements.txt": "5d1fb6514d4dcf4d3d78f72c73fa3d9026a99d1f8e80d1bd12965c68982abced",
-    "src/config.py": "301e3bd298aee64612f8bc399f4d1f7067e3cebb77791835823ba365defbd5a2"
+    "src/accounting.py": "17f0d98316deef64f9b571e9c11fe184a6a971cfa6dc1aa4bafb7b974f07b38e",
+    "src/config.py": "301e3bd298aee64612f8bc399f4d1f7067e3cebb77791835823ba365defbd5a2",
+    "src/ingest.py": "688094169d115a9b4413c10e49d8a0380dd572ffbaef11389c1934a908102f99",
+    "src/retrieve.py": "9c4566c82cfdca32fb5ee684f1e3058291440bce3e67897f155128794b30e4e9",
+    "src/source_tables.py": "3898e77920e179a69701d75d4a073f2182ee70c06a10bfff2cef055278e8adfe",
+    "src/verify_source.py": "12da999c3670d9fb778ca1881422f236649c511dd590022c0b780d93ffc752b7",
+    "tests/test_boundaries.py": "a3a7771fb14018f194ba045a8fac6efa886bea5744aeedd3c024534663d162b5"
   },
   "raw_source_members_excluded": true,
   "unapproved_manuscripts_excluded": true,
