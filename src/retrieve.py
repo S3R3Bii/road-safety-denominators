@@ -8,16 +8,24 @@ from config import ROOT,YEARS,REPORTS
 from source_tables import decode,parse_lines,select_pages,write_gz
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('originals',type=Path);p.add_argument('--reuse-2019',type=Path);a=p.parse_args();raw=a.originals.resolve();assert not raw.is_relative_to(ROOT);raw.mkdir(parents=True,exist_ok=False)
+    p=argparse.ArgumentParser();p.add_argument('originals',type=Path);p.add_argument('--reuse-2019',type=Path);p.add_argument('--resume-captured',action='store_true');a=p.parse_args();raw=a.originals.resolve();assert not raw.is_relative_to(ROOT);raw.mkdir(parents=True,exist_ok=a.resume_captured)
     manifest=[]
     for year in YEARS:
         url='https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/'+REPORTS[year]
-        if year==2019 and a.reuse_2019:
+        if a.resume_captured:
+            response_path=raw/f'{year}.response';assert response_path.exists();data=response_path.read_bytes();captured=datetime.fromtimestamp(response_path.stat().st_mtime,timezone.utc).isoformat();time_basis='Preserved original private capture-file timestamp after interruptedmanifest;no networkrefresh orresponseheader time asserted'
+        elif year==2019 and a.reuse_2019:
             data=a.reuse_2019.read_bytes();captured=datetime.fromtimestamp(a.reuse_2019.stat().st_mtime,timezone.utc).isoformat();time_basis='Original discovery response file modification timestamp; no response header time asserted'
         else:
             with urlopen(Request(url,headers={'User-Agent':'IndependentDenominatorResearch/1.0'}),timeout=90) as response:assert response.status==200;data=response.read()
             captured=datetime.now(timezone.utc).isoformat();time_basis='UTC immediately after response read'
-        (raw/f'{year}.response').write_bytes(data);pdf,wrapper=decode(data);path=raw/f'{year}.pdf';path.write_bytes(pdf);reader=PdfReader(path);tables=[]
+        response_path=raw/f'{year}.response'
+        if a.resume_captured:assert response_path.read_bytes()==data
+        else:response_path.write_bytes(data)
+        pdf,wrapper=decode(data);path=raw/f'{year}.pdf'
+        if a.resume_captured:assert path.read_bytes()==pdf
+        else:path.write_bytes(pdf)
+        reader=PdfReader(path);tables=[]
         for table in [1,7]:
             pages=select_pages(reader,table,year);rows=[]
             for page,text in pages:rows.extend(parse_lines(text,year,table,page))

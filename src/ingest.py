@@ -15,13 +15,17 @@ def main():
             tables[part['table']]={r['state']:r for r in rows}
         for state in [*STATES,'U.S. Total']:
             a=tables[1][state];b=tables[7][state];n=integer(a['fatalities']);assert n==integer(b['fatalities']) and n>=0;checks+=1
-            ds={d:integer(a[d]) for d in DENOMS};assert all(x>0 for x in ds.values());shares={s:integer(b[s+'_pct']) for s in SHARES};assert all(0<=x<=100 for x in shares.values());feasible(n,shares);checks+=6
+            ds={d:integer(a[d]) for d in DENOMS};assert all(x>0 for x in ds.values());shares={s:integer(b[s+'_pct']) for s in SHARES};assert all(0<=x<=100 for x in shares.values());bounds=feasible(n,shares);checks+=6
+            available={k:integer(b[k+'_count']) for k in SHARES if b[k+'_count']!=''}
+            assert len(available) in [0,5]
+            for k,v in available.items():assert bounds[k][0]<=v<=bounds[k][1];checks+=1
+            if available:assert sum(available.values())<=n;checks+=1
             for denom,col,scale in [('population','rate_population',100000),('licensed_drivers','rate_licensed_drivers',100000),('vmt_millions','rate_vmt',100)]:
                 displayed=Fraction(a[col]);low=displayed-Fraction(1,200);high=displayed+Fraction(1,200)
                 if denom=='vmt_millions':possible_low=Fraction(2*n*scale,2*ds[denom]+1);possible_high=Fraction(2*n*scale,2*ds[denom]-1)
                 else:possible_low=possible_high=Fraction(n*scale,ds[denom])
                 assert possible_low<=high and possible_high>=low,(year,state,denom,'Published rate inconsistency');checks+=1
-            if state in STATES:normalized.append({'year':year,'state':state,'fatalities':n,**ds,**{s+'_pct':p for s,p in shares.items()}})
+            if state in STATES:normalized.append({'year':year,'state':state,'fatalities':n,**ds,**{s+'_pct':p for s,p in shares.items()},**{k+'_count':available.get(k,'') for k in SHARES}})
         for field in ['fatalities',*DENOMS]:
             state_sum=sum(integer(tables[1][state][field]) for state in STATES);national=integer(tables[1]['U.S. Total'][field]);difference=state_sum-national
             if field=='fatalities':assert difference==0,'Fatality national reconciliation'

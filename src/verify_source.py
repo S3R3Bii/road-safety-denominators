@@ -24,13 +24,15 @@ def main():
                         for label,state in sorted(aliases.items(),key=lambda x:len(x[0]),reverse=True):
                             match=re.match(re.escape(label)+r'\*?\s+([0-9].*)$',line)
                             if not match:continue
-                            tokens=match.group(1).split();assert len(tokens)==(9 if table['table']==1 else 6),(report['year'],table['table'],label,len(tokens))
-                            assert state not in expected;expected[state]=(label,number,[tokens[i] for i in [0,1,2,4,5,6,8]] if table['table']==1 else tokens);break
+                            tokens=match.group(1).split();assert len(tokens) in ([9] if table['table']==1 else [6,11]),(report['year'],table['table'],label,len(tokens))
+                            assert state not in expected;expected[state]=(label,number,[tokens[i] for i in [0,1,2,4,5,6,8]] if table['table']==1 else [tokens[0],*[tokens[i] for i in [2,4,6,8,10]]] if len(tokens)==11 else tokens,[] if table['table']==1 or len(tokens)==6 else [tokens[i] for i in [1,3,5,7,9]]);break
                 assert len(expected)==53
                 for row in selected:
-                    label,page,values=expected[row['state']];assert row['source_label']==label and int(row['page'])==page;checks+=2
+                    label,page,values,counts=expected[row['state']];assert row['source_label']==label and int(row['page'])==page;checks+=2
                     fields=['fatalities','population','licensed_drivers','vmt_millions','rate_population','rate_licensed_drivers','rate_vmt'] if table['table']==1 else ['fatalities','drivers_pct','passengers_pct','motorcyclists_pct','pedestrians_pct','pedalcyclists_pct']
                     for field,value in zip(fields,values):assert row[field]==value,(report['year'],row['state'],field);checks+=1
+                    if table['table']==7:
+                        for field,value in zip(['drivers_count','passengers_count','motorcyclists_count','pedestrians_count','pedalcyclists_count'],counts if counts else ['']*5):assert row[field]==value;checks+=1
     cert={'status':'PASS','independent_selected_cell_and_locator_checks':checks,'reports':3,'table_pages':6,'engines':'Productionpypdf;independentpdfplumber/pdfminer textgeometry','all_registration_fields_excluded':True,'full_originals_outside_git':True}
     save_json(ROOT/'results/INDEPENDENT_SOURCE_CHECK.json',cert);print(json.dumps(cert))
 

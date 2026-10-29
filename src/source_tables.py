@@ -22,10 +22,14 @@ def parse_lines(text,year,table,page):
         for label in sorted(ALIASES,key=len,reverse=True):
             if not re.match(re.escape(label)+r'\*?\s+[0-9]',line):continue
             body=re.sub('^'+re.escape(label)+r'\*?\s+','',line)
-            tokens=body.split();wanted=9 if table==1 else 6
-            assert len(tokens)==wanted,(year,table,page,label,'Unexpected column count',len(tokens))
+            tokens=body.split();wanted=[9] if table==1 else [6,11]
+            assert len(tokens) in wanted,(year,table,page,label,'Unexpected column count',len(tokens))
             fields=T1 if table==1 else T7;values=[tokens[i] for i in [0,1,2,4,5,6,8]] if table==1 else tokens
-            rows.append(dict(year=str(year),state=ALIASES[label],source_label=label,page=str(page),**dict(zip(fields,values))))
+            if table==7:
+                values=[tokens[0],*[tokens[i] for i in [2,4,6,8,10]]] if len(tokens)==11 else tokens
+            selected=dict(zip(fields,values))
+            if table==7:selected.update({name+'_count':tokens[1+2*i] if len(tokens)==11 else '' for i,name in enumerate(['drivers','passengers','motorcyclists','pedestrians','pedalcyclists'])})
+            rows.append(dict(year=str(year),state=ALIASES[label],source_label=label,page=str(page),**selected))
             break
     return rows
 
