@@ -1,0 +1,18 @@
+{
+  "phase": "evaluation",
+  "years": [
+    2023
+  ],
+  "states": 51,
+  "all_fatality_rank_cells": 153,
+  "exact_pair_comparisons": 3825,
+  "conditional_rate_bound_cells": 612,
+  "bounded_pair_comparisons": 15300,
+  "groups": [
+    "all",
+    "motorcyclists",
+    "pedestrians",
+    "pedalcyclists"
+  ],
+  "limits": "Within-report-year comparisons;printed precision ranges only;no harmonized subgroup trend,person-distance,individual risk or causal claim"
+}

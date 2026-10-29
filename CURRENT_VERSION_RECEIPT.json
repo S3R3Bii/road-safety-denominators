@@ -1,0 +1,146 @@
+{
+  "timestamp_utc": "2026-10-29T18:33:00.544204+00:00",
+  "status": "LOCAL_CANDIDATE_PASS_STAGED_AUDIT_REMOTE_PENDING",
+  "version": "study19-local-candidate-3",
+  "study_id": "19",
+  "scope": "Within-report statefatality denominator anddisplayprecision comparisons;fullsource PDFs/registration/persondata/formal-publication projects excluded",
+  "audience": "Research/dataengineering reviewers;decision-accessible firstlayer",
+  "criteria": {
+    "source_rights_privacy": {
+      "grade": "PASS",
+      "evidence": "Selected factualgovernment cells only;allregistrationfields/reportcopies/persondata excluded;3fullreports outsideGit;3498second-enginecellchecks;6sourcepages inspected"
+    },
+    "coverage_precision": {
+      "grade": "PASS",
+      "evidence": "153eligible state-years;1872fixednumeric checks;allfatality/population/driver totals exact;VMTsum differences2/2/1millionretained;allroundedcount/precisiongatespass unchanged"
+    },
+    "separation": {
+      "grade": "PASS",
+      "evidence": "Publicfreeze61fb856f963cc01178d8c673f38d314636f72207 seals19canonical dependencies before2023rank/reversal outcomes;sourcecells/format/numericconsistency inspected,notblinded"
+    },
+    "independent_values": {
+      "grade": "PASS",
+      "evidence": "13boundaries;127530development/63765evaluation checks;72126exactsubgroup checks;allsourcecount/rank/guaranteecontainment;floatdelta0"
+    },
+    "replay": {
+      "grade": "PASS",
+      "evidence": "653886exactfields/documents and5517floatingfields rebuilt offline withall19freezehashes"
+    },
+    "presentation": {
+      "grade": "PASS",
+      "evidence": "138plotvalues verified;3originalfigures;all8pages inspected;afterQAcellragged-right/figurelabelimprovement pages6/8freshlyrenderedandchecked,other6pagecontentstreams andother2figurePDFhashes unchanged;zero compilerbox/glyphwarnings"
+    },
+    "paper_privacy": {
+      "grade": "PASS_PDF_SCOPE_STAGED_AUDIT_PENDING",
+      "evidence": "61numeric/table/textchecks;8requiredsemanticpages/allcommands;fiveapprovedexactfiles;noactivecode/attachments/forms/additionalactions;ordinaryHTTPS/navigationonly"
+    },
+    "remote_release": {
+      "grade": "PENDING",
+      "evidence": "Exact-headLinux,matchingtested/mergedtree andremoteannotatedtag required"
+    }
+  },
+  "checks": {
+    "results/SOURCE_CHECK.json": {
+      "status": "PASS",
+      "state_year_rows": 153,
+      "source_rows_per_table_year": 53,
+      "eligible_states_per_year": 51,
+      "excluded": "PuertoRico excluded from comparisons;U.S.total accounting only;allregistration fields excluded",
+      "source_numeric_checks": 1872,
+      "fatality_sums": "Exact across51states/DC ineachreport vintage",
+      "denominator_reconciliations": "All differences retained;no rescaling",
+      "rounding_gate": "Closed0.005displayed-rate interval;VMTplus/minus0.5million only;allreported sourcevalues unchanged"
+    },
+    "results/INDEPENDENT_SOURCE_CHECK.json": {
+      "status": "PASS",
+      "independent_selected_cell_and_locator_checks": 3498,
+      "reports": 3,
+      "table_pages": 6,
+      "engines": "Productionpypdf;independentpdfplumber/pdfminer textgeometry",
+      "all_registration_fields_excluded": true,
+      "full_originals_outside_git": true
+    },
+    "results/development/INDEPENDENT_CHECK.json": {
+      "status": "PASS",
+      "phase": "development",
+      "independent_value_checks": 127530,
+      "max_float_delta": 0.0,
+      "methods": "Independent source-tokenjoin;SQLite integer midranks;integer pair crossproducts;Decimalclosedrounding bounds;separate contingency reconstruction",
+      "tolerance": "Exact integers,rank halves,count bounds,ratio crossproducts andpaircategories;1e-12absolute onlyforfloatdisplay"
+    },
+    "results/evaluation/INDEPENDENT_CHECK.json": {
+      "status": "PASS",
+      "phase": "evaluation",
+      "independent_value_checks": 63765,
+      "max_float_delta": 0.0,
+      "methods": "Independent source-tokenjoin;SQLite integer midranks;integer pair crossproducts;Decimalclosedrounding bounds;separate contingency reconstruction",
+      "tolerance": "Exact integers,rank halves,count bounds,ratio crossproducts andpaircategories;1e-12absolute onlyforfloatdisplay"
+    },
+    "results/evaluation/EXACT_SUBGROUP_CHECK.json": {
+      "status": "PASS",
+      "independent_value_checks": 72126,
+      "exact_source_subgroup_counts_checked": 153,
+      "exact_rank_cells": 459,
+      "exact_pair_cells": 11475,
+      "all_conditional_guarantees_and_placements_contain_supplied_counts": "PASS",
+      "scope": "2023sourcecounts areafairpoint comparator;olderyears haveonlyroundedshares inthesetables;notatrue-exposureorclassification-lineagecertificate"
+    },
+    "results/REPRODUCTION.json": {
+      "status": "PASS",
+      "exact_fields_or_json_documents": 653886,
+      "floating_fields": 5517,
+      "frozen_dependencies": 19,
+      "scope": "Isolatedselected-factsourcejoin,all exact/conditional/exact-subgroupoutputs andindependent reconstructions;noPDF,network orprivateoriginalrequired"
+    },
+    "results/FIGURE_CHECK.json": {
+      "status": "PASS",
+      "plotted_values": 138,
+      "scope": "Independent source crossproducts for51scatter points;row-levelexact andboundedpaircontingencies for everybar;visualinspection separate"
+    },
+    "results/PAPER_CHECK.json": {
+      "status": "PASS",
+      "manuscript_pages": 8,
+      "numeric_table_and_text_checks": 61,
+      "public_file_hashes_checked": 5,
+      "pdf_security": "No activecode,attachments,forms oradditionalactions;ordinaryHTTPSlinks/navigationonly",
+      "scope": "Allnineall-fatalitycontrasts;allheadlinetables;sourceversion/reconciliation/checkcounts;primaryexactsubgroupcomparator;requiredsectionsandcommands;boundedpath/tokenscan"
+    }
+  },
+  "sha256_convention": "Canonical LF text and exactPDFbytes",
+  "sha256": {
+    "PROTOCOL.md": "6c91bc71e9241b7606dd26a9565fc233ea40a232ebf9d49581e86a48046e98ce",
+    "SOURCE_SCHEMA_UPDATE.md": "d5789c6b62b328bdd9083e4af8b30a0715eb732e75ddbde427cd956a168363a7",
+    "results/CODE_FREEZE.json": "9a92eba64e50e16f073e667d08fad027b890ab7e6fc092f84feeba357b1b08d0",
+    "data/source/manifest.json": "56f3548e6650ecc8efc44cc82f37d92aba808e0d1e23308629db264fdaffa7cc",
+    "data/measurements.csv": "cd235f5922c48493f80b61f33a5b67a80298757d5592eccaa1a5bb48969e637e",
+    "paper/main.tex": "91a306ed17c6ebda4c85e8b48b69f64d19feb0efe37400d8060fcfe1f1a11efb",
+    "paper/manuscript.pdf": "98e70ac5da4cc0623aadf8e7c0d354dbcf06271d7e6d8f3b08abb5bfc6b6ed6a",
+    "paper/PUBLICATION_SCOPE.json": "08bae91540674c9b441b324da17db47c878b071c79b3621e6c8499bb18d246fa",
+    "paper/REVIEW.json": "cf271f687ed196e9a2d96c530aa1000b8ffedd66fa079b5a8fd104617119d122",
+    "src/check_reproduction.py": "0de6cb1c50952b43d3787197d2e0ca507c187301c5e30b2215e5311b413b6863",
+    "src/verify_figures.py": "3e565ab2712d8ebd85fcc890e625e6d10feaf65f5ff1fbc3fa1d8de60dfa33d4",
+    "src/verify_paper.py": "f20b671b2e228bbb8ce392fba0c29ed98d99fd8f6ddf53285b553204ea39e7f0"
+  },
+  "review_round": 3,
+  "review_budget": "3substantiverounds/45active review minutes/60review-specific calls perstudy;execution separate",
+  "workload_proxies": {
+    "elapsed_discovery_to_candidate_minutes_upper_bound": 27,
+    "review_specific_calls_upper_bound": 55,
+    "not_quota_or_billing": true
+  },
+  "usage_observation": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-29T18:33:00Z",
+    "bucket": "codex",
+    "window_minutes": 10080,
+    "used_percent": 83,
+    "remaining_percent": 17,
+    "reset_unix": 1793782197,
+    "shared_account_not_task_usage": true
+  },
+  "retained_repairs": [
+    "Initial2023Table7six-token gate rejected addedcountcolumns;source-schema update andfair exactcountcomparator fixedbefore anyrankinganalysis;responsesresumed withoutrefresh",
+    "QA-table justifiedspacing andsmallfigurelabels improved;initialsource/PDF/log retained;numericcontentandfrozenanalysis unchanged"
+  ],
+  "remaining": "Exactstagedpublicationaudit;readyPRandexactcandidate/mainLinuxsuccess;matchingtested/mergedtree;remoteannotatedtag;programmetadata. No studyreleasecountyet."
+}

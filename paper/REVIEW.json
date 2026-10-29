@@ -1,0 +1,74 @@
+{
+  "timestamp_utc": "2026-10-29T18:32:30.544590+00:00",
+  "version": "study19-local-candidate-3",
+  "status": "LOCAL_CANDIDATE_PAPER_AUDIT_REMOTE_PENDING",
+  "public_file_sha256": {
+    "paper/main.tex": "91a306ed17c6ebda4c85e8b48b69f64d19feb0efe37400d8060fcfe1f1a11efb",
+    "paper/manuscript.pdf": "98e70ac5da4cc0623aadf8e7c0d354dbcf06271d7e6d8f3b08abb5bfc6b6ed6a",
+    "paper/images/exact-reversals.pdf": "1f6a0b2f4e4d0020dfa87196d44cfe682018102c742d924270d0e995c67caf9b",
+    "paper/images/rank-scatter.pdf": "33eb5d9aa0ba50aa4976a8093955ea2e3f94c11cbe79e7b77128d3e716a994ca",
+    "paper/images/rounded-share-information.pdf": "a781c4d336490d01fbef88972073366e4824a77bf580ac6536910d45f5bc4814"
+  },
+  "acceptance_criteria": {
+    "source_rights_privacy": {
+      "grade": "PASS",
+      "evidence": "Selected factualgovernment cells only;allregistrationfields/reportcopies/persondata excluded;3fullreports outsideGit;3498second-enginecellchecks;6sourcepages inspected"
+    },
+    "coverage_precision": {
+      "grade": "PASS",
+      "evidence": "153eligible state-years;1872fixednumeric checks;allfatality/population/driver totals exact;VMTsum differences2/2/1millionretained;allroundedcount/precisiongatespass unchanged"
+    },
+    "separation": {
+      "grade": "PASS",
+      "evidence": "Publicfreeze61fb856f963cc01178d8c673f38d314636f72207 seals19canonical dependencies before2023rank/reversal outcomes;sourcecells/format/numericconsistency inspected,notblinded"
+    },
+    "independent_values": {
+      "grade": "PASS",
+      "evidence": "13boundaries;127530development/63765evaluation checks;72126exactsubgroup checks;allsourcecount/rank/guaranteecontainment;floatdelta0"
+    },
+    "replay": {
+      "grade": "PASS",
+      "evidence": "653886exactfields/documents and5517floatingfields rebuilt offline withall19freezehashes"
+    },
+    "presentation": {
+      "grade": "PASS",
+      "evidence": "138plotvalues verified;3originalfigures;all8pages inspected;afterQAcellragged-right/figurelabelimprovement pages6/8freshlyrenderedandchecked,other6pagecontentstreams andother2figurePDFhashes unchanged;zero compilerbox/glyphwarnings"
+    },
+    "paper_privacy": {
+      "grade": "PASS_PDF_SCOPE_STAGED_AUDIT_PENDING",
+      "evidence": "61numeric/table/textchecks;8requiredsemanticpages/allcommands;fiveapprovedexactfiles;noactivecode/attachments/forms/additionalactions;ordinaryHTTPS/navigationonly"
+    },
+    "remote_release": {
+      "grade": "PENDING",
+      "evidence": "Exact-headLinux,matchingtested/mergedtree andremoteannotatedtag required"
+    }
+  },
+  "review_round": 3,
+  "review_budget": "3substantiverounds/45active review minutes/60review-specific calls perstudy;execution separate",
+  "workload_proxies": {
+    "elapsed_discovery_to_candidate_minutes_upper_bound": 25,
+    "review_specific_calls_upper_bound": 50,
+    "not_quota_or_billing": true
+  },
+  "usage_observation": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-29T18:33:00Z",
+    "bucket": "codex",
+    "window_minutes": 10080,
+    "used_percent": 83,
+    "remaining_percent": 17,
+    "reset_unix": 1793782197,
+    "shared_account_not_task_usage": true
+  },
+  "retained_repairs": [
+    "Initial2023Table7six-token gate rejected addedcountcolumns;source-schema update andfair exactcountcomparator fixedbefore anyrankinganalysis;responsesresumed withoutrefresh",
+    "QA-table justifiedspacing andsmallfigurelabels improved;initialsource/PDF/log retained;numericcontentandfrozenanalysis unchanged"
+  ],
+  "limits": [
+    "ThreepublishedARFvintages,not latestharmonizedFARS",
+    "Conditionalroundedshare/VMTdisplayprecisionranges areconservative,notsharpjointconfidence/exposurebounds",
+    "2023exactcounts retained;rounded representation explicitlycoarsened",
+    "Noresidentdeathrisk,person-distance,individualsafety,causalpolicy,newmethod,human-auditedlabelorpeer-reviewclaim"
+  ],
+  "next_step": "Complete paper/publication checks,readythePR,pass exactLinuxcandidate/mainchecks,verifymatchingmerge/tree/tagandupdate register."
+}

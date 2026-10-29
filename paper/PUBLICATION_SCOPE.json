@@ -1,0 +1,12 @@
+{
+  "scope": "independent-program-study",
+  "formal_submission_target": false,
+  "authority": "User-authorized reviewed independent GitHub research manuscript;separate formal-publication projects includingAzure stayprivate.",
+  "public_files": {
+    "paper/main.tex": "91a306ed17c6ebda4c85e8b48b69f64d19feb0efe37400d8060fcfe1f1a11efb",
+    "paper/manuscript.pdf": "98e70ac5da4cc0623aadf8e7c0d354dbcf06271d7e6d8f3b08abb5bfc6b6ed6a",
+    "paper/images/exact-reversals.pdf": "1f6a0b2f4e4d0020dfa87196d44cfe682018102c742d924270d0e995c67caf9b",
+    "paper/images/rank-scatter.pdf": "33eb5d9aa0ba50aa4976a8093955ea2e3f94c11cbe79e7b77128d3e716a994ca",
+    "paper/images/rounded-share-information.pdf": "a781c4d336490d01fbef88972073366e4824a77bf580ac6536910d45f5bc4814"
+  }
+}

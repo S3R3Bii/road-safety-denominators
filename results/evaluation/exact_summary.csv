@@ -1,0 +1,4 @@
+year,denominator_a,denominator_b,pairs,same,reversal,tie_in_either,max_abs_midrank_movement,top5_a_size,top5_b_size,top5_overlap,top10_a_size,top10_b_size,top10_overlap
+2023,population,licensed_drivers,1275,1212,63,0,7.0,5,5,3,10,10,9
+2023,population,vmt_millions,1275,1053,222,0,21.0,5,5,2,10,10,6
+2023,licensed_drivers,vmt_millions,1275,1054,221,0,24.0,5,5,2,10,10,7

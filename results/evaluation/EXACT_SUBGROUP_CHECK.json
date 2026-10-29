@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "independent_value_checks": 72126,
+  "exact_source_subgroup_counts_checked": 153,
+  "exact_rank_cells": 459,
+  "exact_pair_cells": 11475,
+  "all_conditional_guarantees_and_placements_contain_supplied_counts": "PASS",
+  "scope": "2023sourcecounts areafairpoint comparator;olderyears haveonlyroundedshares inthesetables;notatrue-exposureorclassification-lineagecertificate"
+}

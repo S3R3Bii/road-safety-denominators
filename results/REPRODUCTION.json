@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "exact_fields_or_json_documents": 653886,
+  "floating_fields": 5517,
+  "frozen_dependencies": 19,
+  "scope": "Isolatedselected-factsourcejoin,all exact/conditional/exact-subgroupoutputs andindependent reconstructions;noPDF,network orprivateoriginalrequired"
+}

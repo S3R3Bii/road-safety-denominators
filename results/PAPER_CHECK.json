@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "manuscript_pages": 8,
+  "numeric_table_and_text_checks": 61,
+  "public_file_hashes_checked": 5,
+  "pdf_security": "No activecode,attachments,forms oradditionalactions;ordinaryHTTPSlinks/navigationonly",
+  "scope": "Allnineall-fatalitycontrasts;allheadlinetables;sourceversion/reconciliation/checkcounts;primaryexactsubgroupcomparator;requiredsectionsandcommands;boundedpath/tokenscan"
+}
